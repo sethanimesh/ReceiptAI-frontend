@@ -28,7 +28,7 @@ export default function LoginComponent() {
             password: password
         };
 
-        fetch('http://localhost:8080/user/login', {
+        fetch('http://18.206.55.63:8080/user/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
